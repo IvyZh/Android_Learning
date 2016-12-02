@@ -210,3 +210,124 @@ Model层代码不变，还是同样的网络请求
 
 
 ## LoginDemo_MVVM
+
+详细信息请关注[官方开发者论坛](https://developer.android.com/topic/libraries/data-binding/index.html?hl=zh-cn)，里面会随时更新：
+
+
+
+* 在使用 DataBinding 的 Module 中，如下配置：
+
+		android {
+		    ....
+		    dataBinding {
+		        enabled = true
+		    }
+		}
+
+
+
+* Data Binding Layout Files
+
+
+		<?xml version="1.0" encoding="utf-8"?>
+		<layout xmlns:android="http://schemas.android.com/apk/res/android">
+		   <data>
+		       <variable name="user" type="com.example.User"/>
+		   </data>
+		   <LinearLayout
+		       android:orientation="vertical"
+		       android:layout_width="match_parent"
+		       android:layout_height="match_parent">
+		       <TextView android:layout_width="wrap_content"
+		           android:layout_height="wrap_content"
+		           android:text="@{user.firstName}"/>
+		       <TextView android:layout_width="wrap_content"
+		           android:layout_height="wrap_content"
+		           android:text="@{user.lastName}"/>
+		   </LinearLayout>
+		</layout>
+
+* Data Data
+
+
+		@Override
+		protected void onCreate(Bundle savedInstanceState) {
+		   super.onCreate(savedInstanceState);
+		   MainActivityBinding binding = DataBindingUtil.setContentView(this, R.layout.main_activity);
+		   User user = new User("Test", "User");
+		   binding.setUser(user);
+		}
+
+* Observable Objects
+
+
+		private static class User extends BaseObservable {
+		   private String firstName;
+		   private String lastName;
+		   @Bindable
+		   public String getFirstName() {
+		       return this.firstName;
+		   }
+		   @Bindable
+		   public String getLastName() {
+		       return this.lastName;
+		   }
+		   public void setFirstName(String firstName) {
+		       this.firstName = firstName;
+		       notifyPropertyChanged(BR.firstName);
+		   }
+		   public void setLastName(String lastName) {
+		       this.lastName = lastName;
+		       notifyPropertyChanged(BR.lastName);
+		   }
+		}
+
+
+* ObservableFields
+		
+		private static class User {
+		   public final ObservableField<String> firstName =
+		       new ObservableField<>();
+		   public final ObservableField<String> lastName =
+		       new ObservableField<>();
+		   public final ObservableInt age = new ObservableInt();
+		}
+
+
+MainActivity：
+
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+		// setContentView(R.layout.activity_main);
+        ActivityMainBinding binding = DataBindingUtil.setContentView(this, R.layout.activity_main);
+        user = new User();
+        user.userName.set("ivy123");
+        user.pwd.set("123");
+        binding.setUser(user);
+
+
+        new Thread(new Runnable() {
+            @Override
+            public void run() {
+                SystemClock.sleep(3000);
+                user.userName.set("ivy");
+            }
+        }).start();
+
+    }
+
+
+
+----
+
+4个Demo下载地址：
+
+LoginDemo
+
+LoginDemo_MVC
+
+LoginDemo_MVP
+
+LoginDemo_MVVM

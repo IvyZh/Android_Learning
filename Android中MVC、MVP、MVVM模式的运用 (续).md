@@ -324,10 +324,4 @@ MainActivity：
 
 4个Demo下载地址：
 
-LoginDemo
-
-LoginDemo_MVC
-
-LoginDemo_MVP
-
-LoginDemo_MVVM
+[LoginDemos](https://github.com/IvyZh/Android_Learning/blob/master/demos/login_mvc_mvp_mvvm_demos.zip)

@@ -16,7 +16,7 @@
 
 ### MVP
 
-![](http://1)
+![](https://github.com/IvyZh/Android_Learning/blob/master/imgs/QQ%E6%88%AA%E5%9B%BE20161206141951.png)
 
 * MVP需求提出
 	* 数据获取由本地加载改成网络获取
@@ -152,7 +152,7 @@ COP开闭原则
 
 - 内存泄露
 
-![](http://2)
+![](https://github.com/IvyZh/Android_Learning/blob/master/imgs/QQ%E6%88%AA%E5%9B%BE20161206162605.png)
 
 
 
@@ -209,3 +209,4 @@ COP开闭原则
 - 性能优化
 - ndk
 - react-native
+![](https://github.com/IvyZh/Android_Learning/blob/master/imgs/QQ%E6%88%AA%E5%9B%BE20161206164815.png)

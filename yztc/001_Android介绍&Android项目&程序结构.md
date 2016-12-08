@@ -18,14 +18,14 @@
 
 
 ### Android发展史 
-![](http://1)
+![](https://github.com/IvyZh/Android_Learning/blob/master/imgs/yztc/QQ%E6%88%AA%E5%9B%BE20161207142106.png)
 
 
 ### Android系统架构
 
-![](http://2)
+![](https://github.com/IvyZh/Android_Learning/blob/master/imgs/yztc/QQ%E6%88%AA%E5%9B%BE20161207142426.png)
 
-![](http://3)
+![](https://github.com/IvyZh/Android_Learning/blob/master/imgs/yztc/QQ%E6%88%AA%E5%9B%BE20161207142455.png)
 
 - Linux内核层
 	- Android是在Linux内核的基础上构建的
@@ -38,7 +38,7 @@
 	- 窗口管理器
 	- ...
 
-![](http://4)
+![](https://github.com/IvyZh/Android_Learning/blob/master/imgs/yztc/QQ%E6%88%AA%E5%9B%BE20161207142910.png)
 
 - 应用层
 

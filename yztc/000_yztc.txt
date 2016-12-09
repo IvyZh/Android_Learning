@@ -1,0 +1,52 @@
+----------finish
+## 第01讲_01_初识Android
+## 第01讲_02_Android开发环境搭建
+## 第01讲_03_Android项目创建
+## 第02讲_01_LinearLayout基本使用（一）
+## 第02讲_02_LinearLayout基本使用（二）
+## 第02讲_03_layout_weight属性的使用
+## 第03讲_01_TextView、EditText的使用
+## 第03讲_02_Button的使用
+## 第03讲_03_ImageView的使用
+## 第03讲_04_RadioButton的使用
+## 第03讲_05_CheckBox的使用
+## 第03讲_06_Toast的使用
+## 第04讲_01_Spinner的使用
+## 第04讲_02_AutoCompleteTextView
+## 第05讲_01_Style和Theme的使用
+
+## 第06讲_01_初识Activity
+## 第06讲_02_Activity的生命周期（一）
+## 第06讲_03_Activity的生命周期（二）
+## 第06讲_04_Activity传值（一）
+## 第06讲_05_Activity传值（二）
+## 第07讲_01_Task、Back Stack
+## 第07讲_02_Activity的启动模式
+## 第07讲_03_Intent的属性（一）
+## 第07讲_04_Intent的属性（二）
+## 第07讲_05_隐式启动
+## 第08讲_01_UI线程模型介绍
+## 第08讲_02_AsyncTask的基本使用
+## 第08讲_03_AsyncTask显示进度
+## 第08讲_04_AsyncTask的取消
+## 第09讲_01_ListView的基本使用
+## 第09讲_02_ListView的常用方法
+## 第09讲_03_SimpleAdaper的使用
+## 第09讲_04_BaseAdapter的基本使用
+## 第09讲_05_ListView的优化
+## 第10讲_01_GridView的使用（一）
+## 第10讲_02_GridView的使用（二）
+## 第11讲_01_OptionsMenu的使用
+## 第11讲_02_ContextMene的使用
+## 第11讲_03_PopupMenu
+## 第11讲_04_PopupWindow
+## 第11讲_05_AlertDialog
+## 第11讲_06_CustomDialog
+## 第11讲_07_ListDialog
+## 第12讲_01_SharedPreference
+## 第12讲_02_内部存储
+## 第12讲_03_ExternalStorage
+
+--------------
+
+Day05 End.

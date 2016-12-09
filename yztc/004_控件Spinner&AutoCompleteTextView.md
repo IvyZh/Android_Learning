@@ -19,7 +19,7 @@
 
 > 起到了数据源和适配器控件的桥梁作用
 
-![](http://1)
+![](https://github.com/IvyZh/Android_Learning/blob/master/imgs/yztc/QQ%E6%88%AA%E5%9B%BE20161208170430.png)
 
 使用方法：
 

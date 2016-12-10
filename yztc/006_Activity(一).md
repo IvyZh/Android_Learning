@@ -97,11 +97,11 @@ Activity设置Dialog主题之后的生命周期
 
 	onPause-->onResume
 
-![](http://1)
+![](https://github.com/IvyZh/Android_Learning/blob/master/imgs/yztc/QQ%E6%88%AA%E5%9B%BE20161209135115.png)
 
-![](http://1)
+![](https://github.com/IvyZh/Android_Learning/blob/master/imgs/yztc/QQ%E6%88%AA%E5%9B%BE20161209135441.png)
 
-![](http://1)
+![](https://github.com/IvyZh/Android_Learning/blob/master/imgs/yztc/QQ%E6%88%AA%E5%9B%BE20161209135515.png)
 
 
 ### 横竖屏切换时生命周期变化

@@ -50,5 +50,23 @@
 > 应用程序无响应。Application Not Responding.
 
 ## 第08讲_02_AsyncTask的基本使用
+
+主要内容
+
+1. 什么是AsyncTask？
+2. AsyncTask的使用
+
+
+### 什么是AsyncTask？
+
+> Android提供了一个叫做AsyncTask的类，专门用于完成非UI线程更新UI的任务，AsyncTask是个抽象类
+
+### AsyncTask的使用
+
+1. 首先子类化AsyncTask
+2. 重写响应方法
+3. 在UI线程中启动AsyncTask
+
+
 ## 第08讲_03_AsyncTask显示进度
 ## 第08讲_04_AsyncTask的取消

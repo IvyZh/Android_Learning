@@ -10,7 +10,7 @@
 
 不同的应用之间。
 
-![](http://1)
+![](https://github.com/IvyZh/Android_Learning/blob/master/imgs/yztc/QQ%E6%88%AA%E5%9B%BE20161217165852.png)
 
 
 ### ContentResolver实现对系统数据的操作

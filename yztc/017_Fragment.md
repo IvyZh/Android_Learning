@@ -95,7 +95,7 @@ LeftFragment和RightFragment和上面的一样
 Fragment:11
 Activity:7
 
-![](http://1)
+![](https://github.com/IvyZh/Android_Learning/blob/master/imgs/yztc/QQ%E6%88%AA%E5%9B%BE20161219152032.png)
 
 onAttach()//挂载Fragment到Activity中
 

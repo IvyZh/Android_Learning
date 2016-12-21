@@ -95,7 +95,7 @@ code2:面向接口编程,通过监听回调的方式实现回调
 
 Observable.create(....)
 
-![](http://1)
+![](https://github.com/IvyZh/Android_Learning/blob/master/imgs/rxandroid/QQ%E6%88%AA%E5%9B%BE20161221164310.png)
 
 
 变形的使用1（被观察者变形）：
@@ -167,16 +167,16 @@ Observable.create(....)
 
 * 转换（Map） 将一个对象转换成另外一个对象
 
-![](http://2)
+![](https://github.com/IvyZh/Android_Learning/blob/master/imgs/rxandroid/QQ%E6%88%AA%E5%9B%BE20161221173136.png)
 
 可能是将网络数据转成bean 也可能是cursor转成bean 或者流转成图片等等
 
-![](http://3)
+![](https://github.com/IvyZh/Android_Learning/blob/master/imgs/rxandroid/QQ%E6%88%AA%E5%9B%BE20161221173327.png)
 
 
 ### 线程调度器
 
-![](http://1)
+![](https://github.com/IvyZh/Android_Learning/blob/master/imgs/rxandroid/QQ%E6%88%AA%E5%9B%BE20161221164310.png)
 
 Thread.currentThread().getName();在call 和next方法中打印线程名称发现都是**`main`**
 
@@ -212,7 +212,7 @@ Thread.currentThread().getName();在call 和next方法中打印线程名称发�
 指定线程：
 
 
-![](http://4)
+![](https://github.com/IvyZh/Android_Learning/blob/master/imgs/rxandroid/QQ%E6%88%AA%E5%9B%BE20161221175033.png)
 
 subscribeOn ： 可以执行多次
 
@@ -260,7 +260,7 @@ subscribe ： 只需要执行一次，指定订阅者执行的线程
 
 线程的切换案例：
 
-![](http://5)
+![](https://github.com/IvyZh/Android_Learning/blob/master/imgs/rxandroid/QQ%E6%88%AA%E5%9B%BE20161221175807.png)
 
 
 * flatMap 平铺对象 把集合中的对象取出来

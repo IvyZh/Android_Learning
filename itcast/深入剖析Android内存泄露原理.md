@@ -9,15 +9,15 @@ OOM：outOfMemery dvm只有10M，如加载大图片，堆内存空间。
 
 ## 2. JVM垃圾回收机制和算法
 
-![](http://1)
+![](https://github.com/IvyZh/Android_Learning/blob/master/imgs/itcast/QQ%E6%88%AA%E5%9B%BE20161226154054.png)
 
-![](http://2)
+![](https://github.com/IvyZh/Android_Learning/blob/master/imgs/itcast/QQ%E6%88%AA%E5%9B%BE20161226155729.png)
 
 ## 3. 常见的内存泄露场景
 
 * 非静态内部类的错误使用
 
-![](http://3)
+![](https://github.com/IvyZh/Android_Learning/blob/master/imgs/itcast/QQ%E6%88%AA%E5%9B%BE20161226160528.png)
 
 > 内部类对象对外部类对象有一个隐式的强引用
 
@@ -60,7 +60,7 @@ Java中的四种引用类型
 		  }
 		}
 
-![](http://4)
+![](https://github.com/IvyZh/Android_Learning/blob/master/imgs/itcast/QQ%E6%88%AA%E5%9B%BE20161226163353.png)
 
 
 
@@ -108,7 +108,7 @@ code:
 
 Handler mHandler = new Handler();
 
-![](http://5)
+![](https://github.com/IvyZh/Android_Learning/blob/master/imgs/itcast/QQ%E6%88%AA%E5%9B%BE20161226165103.png)
 
 
 内存泄露到75k，已经算是很大了的。
@@ -186,11 +186,11 @@ Handler mHandler = new Handler();
 
 环信+LeadCloud
 
-![](http://6)
+![](https://github.com/IvyZh/Android_Learning/blob/master/imgs/itcast/QQ%E6%88%AA%E5%9B%BE20161226173816.png)
 
 解决：
 
-![](http://7)
+![](https://github.com/IvyZh/Android_Learning/blob/master/imgs/itcast/QQ%E6%88%AA%E5%9B%BE20161226174045.png)
 
 
 view置为null，adapter置为null

@@ -1,0 +1,1 @@
+Android5.0 之后推出的。集合了ListView和GridView的功能，还自带了瀑布流效果。

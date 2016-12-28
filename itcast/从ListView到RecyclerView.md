@@ -3,7 +3,7 @@ Android5.0 之后推出的。集合了ListView和GridView的功能，还自带�
 
 Menu:
 
-![](http://1)
+![](https://github.com/IvyZh/Android_Learning/blob/master/imgs/itcast/QQ%E6%88%AA%E5%9B%BE20161228140903.png)
 
 
 RecyclerView:
@@ -29,7 +29,7 @@ mRecyclerView.setLayoutManager(new LinearLayoutManager(this))
 
 // 设置Adapter
 
-![](http://2)
+![](https://github.com/IvyZh/Android_Learning/blob/master/imgs/itcast/QQ%E6%88%AA%E5%9B%BE20161228142226.png)
 
 
 onCreateViewHolder
@@ -49,7 +49,7 @@ onBindViewHolder
 
 ### 添加CardView的依赖
 
-![](http://3)
+![](https://github.com/IvyZh/Android_Learning/blob/master/imgs/itcast/QQ%E6%88%AA%E5%9B%BE20161228164619.png)
 
 - 属性
 	- cardelevation 海拔

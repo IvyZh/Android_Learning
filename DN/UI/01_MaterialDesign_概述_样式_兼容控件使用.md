@@ -5,7 +5,7 @@
 
 ## Android高级UI开发
 
-![Android高级UI开发学习路线图](http://1)
+![Android高级UI开发学习路线图](https://github.com/IvyZh/Android_Learning/blob/master/DN/UI/imgs/01_%E9%AB%98%E7%BA%A7UI.png)
 
 
 MD官方网站：
@@ -74,7 +74,7 @@ eclipse juno
 
 新建项目：
 
-![](http://2)
+![](https://github.com/IvyZh/Android_Learning/blob/master/DN/UI/imgs/QQ%E6%88%AA%E5%9B%BE20170227172032.png)
 
 需要手动引入v7依赖，位置在 sdk/extras/android/support/v7/appcompat
 
@@ -87,25 +87,24 @@ eclipse juno
 
 运行在5.x手机模拟器上效果
 
-![](http://3)
+![](https://github.com/IvyZh/Android_Learning/blob/master/DN/UI/imgs/QQ%E6%88%AA%E5%9B%BE20170227174446.png))
 
-![](http://5)
+![](https://github.com/IvyZh/Android_Learning/blob/master/DN/UI/imgs/QQ%E6%88%AA%E5%9B%BE20170227174834.png))
 
 使用Theme.AppCompat.Light主题
 
-![](http://4)
+![](https://github.com/IvyZh/Android_Learning/blob/master/DN/UI/imgs/QQ%E6%88%AA%E5%9B%BE20170227174630.png))
 
-运行在5.x手机模拟器上效果
+运行在5.x手机模拟器上效果:
 
-![](http://6)
+![](https://github.com/IvyZh/Android_Learning/blob/master/DN/UI/imgs/QQ%E6%88%AA%E5%9B%BE20170227175120.png))
 
 我们发现效果不明显，是因为我们使用的编译时6.0，会在values-v14里面去找样式：
-
-![](http://7)
+![](https://github.com/IvyZh/Android_Learning/blob/master/DN/UI/imgs/QQ%E6%88%AA%E5%9B%BE20170227175241.png))
 
 解决办法是手动将v14和v17引用的样式都换成Theme.AppCompat.Light，之后运行的效果：
 
-![](http://8)
+![](https://github.com/IvyZh/Android_Learning/blob/master/DN/UI/imgs/QQ%E6%88%AA%E5%9B%BE20170227175352.png))
 
 如果把这个程序运行在4.x系统的手机上，效果也是这样的。
 
@@ -116,13 +115,13 @@ eclipse juno
 
 1. 修改Theme.AppCompat.Light的样式
 
-![](http://9)
+![](https://github.com/IvyZh/Android_Learning/blob/master/DN/UI/imgs/QQ%E6%88%AA%E5%9B%BE20170227175717.png))
 
 运行效果：
 
-![](http://10)
+![](https://github.com/IvyZh/Android_Learning/blob/master/DN/UI/imgs/QQ%E6%88%AA%E5%9B%BE20170227175941.png))
 
-![](http://11)
+![](https://github.com/IvyZh/Android_Learning/blob/master/DN/UI/imgs/QQ%E6%88%AA%E5%9B%BE20170227180451.png))
 
 
 	colorPrimary：主色，

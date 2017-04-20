@@ -79,3 +79,11 @@ ViewHelper.setAlpha(mMenu,1-factor);
 
 继承线性布局SlidingItemMenuLayout
 
+布局文件：
+
+![](http://9)
+
+自定义布局：
+
+![](http://10)
+

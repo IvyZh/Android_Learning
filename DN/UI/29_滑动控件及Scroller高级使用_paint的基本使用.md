@@ -28,7 +28,9 @@ ListView
 
 效果：
 
-![](http://1)
+![](https://github.com/IvyZh/Android_Learning/blob/master/DN/UI/imgs/QQ%E6%88%AA%E5%9B%BE20170418135259.png)
+
+
 
 简化操作：自定义HorizontalScrollView,重写onScrollChanged方法
 
@@ -38,32 +40,38 @@ menu.xml & main.xml
 
 素材：
 
-![](http://2)
+![](https://github.com/IvyZh/Android_Learning/blob/master/DN/UI/imgs/QQ%E6%88%AA%E5%9B%BE20170418135718.png)
 
 
 main布局：
 
-![](http://3)
+![](https://github.com/IvyZh/Android_Learning/blob/master/DN/UI/imgs/QQ%E6%88%AA%E5%9B%BE20170418135808.png)
+
+
 
 
 自定义SlidingMenu继承HorizontalScrollView
 
 onMeasure：
 
-![](http://4)
+![](https://github.com/IvyZh/Android_Learning/blob/master/DN/UI/imgs/QQ%E6%88%AA%E5%9B%BE20170418160417.png)
+
 
 onLayout：
 
-![](http://5)
+![](https://github.com/IvyZh/Android_Learning/blob/master/DN/UI/imgs/QQ%E6%88%AA%E5%9B%BE20170418160646.png)
+
 
 
 onTouch：
 
-![](http://6)
+![](https://github.com/IvyZh/Android_Learning/blob/master/DN/UI/imgs/QQ%E6%88%AA%E5%9B%BE20170418161419.png)
+
 
 处理属性动画：
 
-![](http://7)
+![](https://github.com/IvyZh/Android_Learning/blob/master/DN/UI/imgs/QQ%E6%88%AA%E5%9B%BE20170418161952.png)
+
 
 透明度效果：
 
@@ -75,15 +83,50 @@ ViewHelper.setAlpha(mMenu,1-factor);
 
 效果：
 
-![](http://8)
+![](https://github.com/IvyZh/Android_Learning/blob/master/DN/UI/imgs/QQ%E6%88%AA%E5%9B%BE20170418203451.png)
+
 
 继承线性布局SlidingItemMenuLayout
 
 布局文件：
 
-![](http://9)
+![](https://github.com/IvyZh/Android_Learning/blob/master/DN/UI/imgs/QQ%E6%88%AA%E5%9B%BE20170420113823.png)
+
 
 自定义布局：
 
-![](http://10)
+![](https://github.com/IvyZh/Android_Learning/blob/master/DN/UI/imgs/QQ%E6%88%AA%E5%9B%BE20170420114350.png)
 
+代码：
+
+![](https://github.com/IvyZh/Android_Learning/blob/master/DN/UI/imgs/QQ%E6%88%AA%E5%9B%BE20170426152423.png)
+![](https://github.com/IvyZh/Android_Learning/blob/master/DN/UI/imgs/QQ%E6%88%AA%E5%9B%BE20170426152501.png)
+![](https://github.com/IvyZh/Android_Learning/blob/master/DN/UI/imgs/QQ%E6%88%AA%E5%9B%BE20170426152637.png)
+
+
+记得要加上滑动的临界判断
+
+
+### 3Paint的基本使用及重点方法_recv
+
+画笔实现的水波纹扩散效果
+
+![](https://github.com/IvyZh/Android_Learning/blob/master/DN/UI/imgs/QQ%E6%88%AA%E5%9B%BE20170426153734.png)
+
+
+重点来了：
+
+线帽StrokeCap
+StrokeJoin
+
+![](https://github.com/IvyZh/Android_Learning/blob/master/DN/UI/imgs/QQ%E6%88%AA%E5%9B%BE20170426154235.png)
+
+
+测试效果：
+
+![](https://github.com/IvyZh/Android_Learning/blob/master/DN/UI/imgs/QQ%E6%88%AA%E5%9B%BE20170426154502.png)
+![](https://github.com/IvyZh/Android_Learning/blob/master/DN/UI/imgs/QQ%E6%88%AA%E5%9B%BE20170426154950.png)
+![](https://github.com/IvyZh/Android_Learning/blob/master/DN/UI/imgs/QQ%E6%88%AA%E5%9B%BE20170426155010.png)
+
+
+End.
